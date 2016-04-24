@@ -1,12 +1,170 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <!-- Заголовок страницы -->
     <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+</head>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+<body>
+    <div class="container">
+        <!-- Верхний колонтитул -->
+        <header class="main-header">
+            <!-- Меню навигации -->
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <!-- Ссылка на страницу -->
+                        <a href="#">ИНФОРМАЦИЯ</a>
+                    </li>
+                    <li>
+                        <a href="#">ФОТО И ВИДЕО</a>
+                    </li>
+                    <li>
+                        <a href="#">КАРТА ШТАТА</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">ГОСТИНИЦЫ</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Логотип -->
+            <div class="index-logo">
+                <a href="index.html"> <img src="img/index-logo.png" width="368" height="204" alt="Какая-то Седона"> </a>
+            </div>
+        </header>
+        <!-- Основное содержание страницы -->
+        <main>
+            <!-- Раздел 1 -->
+            <section class="intro">
+                <!-- Название -->
+                <h1>
+        СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,
+      ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+                <!-- Текст -->
+                <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон.</p>
+            </section>
+            <!-- Раздел 2 -->
+            <section class="features">
+                <div class="features-item">
+                    <!-- Название -->
+                    <h2>НАСТОЯЩИЙ ГОРОДОК</h2>
+                    <span> №1 </span>
+                    <!-- Текст -->
+                    <p>СЕДОНА-НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+                </div>
+                <div class="features-image">
+                    <img src="img/photo-1.jpg" width="286" height="164" alt="Какая-то картинка">
+                </div>
+            </section>
+            <!-- Раздел 3 -->
+            <section class="proposal">
+                <div class="proposal-item">
+                    <!-- Название -->
+                    <h2>ЖИЛЬЕ</h2>
+                    <!-- Текст -->
+                    <p>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЕ КАК В КИНО!</p>
+                </div>
+                <div class="proposal-item">
+                    <!-- Название -->
+                    <h2>ЕДА</h2>
+                    <!-- Текст -->
+                    <p>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
+                </div>
+                <div class="proposal-item">
+                    <!-- Название -->
+                    <h2>СУВЕНИРЫ</h2>
+                    <!-- Текст -->
+                    <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
+                </div>
+            </section>
+            <!-- Раздел 4 -->
+            <section class="features">
+                <div class="features-image">
+                    <img src="img/photo-2.jpg" width="286" height="164" alt="Какая-то картинка">
+                </div>
+                <div class="features-item">
+                    <!-- Название -->
+                    <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
+                    <span> №2 </span>
+                    <!-- Текст -->
+                    <p>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ ВЫ КОНЕЧНО ОСМЕЛИТЕСЬ</p>
+                </div>
+            </section>
+            <!-- Раздел 5 -->
+            <section class="features">
+                <div class="features-item">
+                    <!-- Название -->
+                    <h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+                    <span> №3 </span>
+                    <!-- Текст -->
+                    <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬСТВА НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+                </div>
+                <div class="features-item">
+                    <!-- Название -->
+                    <h2>КРАСИВАЯ ДОРОГА</h2>
+                    <span> №4 </span>
+                    <!-- Текст -->
+                    <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+                </div>
+                <div class="features-item">
+                    <!-- Название -->
+                    <h2>МАЛО ТУРИСТОВ</h2>
+                    <span> №5 </span>
+                    <!-- Текст -->
+                    <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНТ-КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+                </div>
+            </section>
+            <!-- Раздел 6 -->
+            <section class="search">
+                <!-- Название -->
+                <h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+                <!-- Текст -->
+                <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+                <a href="#"> ПОИСК ГОСТИНИЦЫ В СЕДОНЕ </a>
+            </section>
+            <section class="map">
+                <!--Форма записи-->
+                <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+                    <!--Поля для ввода-->
+                    <input type="text" name="date" value="" placeholder="Дата заезда">
+                    <input type="text" name="date" value="" placeholder="Дата выезда">
+                    <div class="search-item">
+                        <input type="text" name="date" value="" placeholder="ВЗРОСЛЫЕ">
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <div class="search-item">
+                        <input type="text" name="date" value="" placeholder="ДЕТИ">
+                        <button>+</button>
+                        <button>-</button>
+                    </div>
+                    <!--Кнопка отправки-->
+                    <button class="btn" type="submit">НАЙТИ</button>
+                </form>
+            </section>
+    </div>
+    </section>
+    </main>
+    <!-- Нижний колонтитул -->
+    <footer class="main-footer">
+        <div>
+            <!-- Раздел -->
+            <div class="footer-contacts">
+                <a href="#"> #VISITSEDONA </a>
+            </div>
+            <div class="footer-social">
+                <a href="#">Вконтакте</a>
+                <a href="#">Фейсбук</a>
+                <a href="#">Инстаграм</a>
+            </div>
+            <div class="footer-image">
+                <a href="#"> <img src="img/photo-3.jpg" width="286" height="164" alt="Какая-то картинка"> </a>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
 
-  </body>
 </html>

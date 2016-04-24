@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Заголовок страницы -->
+    <title>HTML Academy: Седона next</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Верхний колонтитул -->
+        <header class="main-header">
+            <!-- Меню навигации -->
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <!-- Ссылка на страницу -->
+                        <a href="#">ИНФОРМАЦИЯ</a>
+                    </li>
+                    <li>
+                        <a href="#">ФОТО И ВИДЕО</a>
+                    </li>
+                    <li>
+                        <a href="#">КАРТА ШТАТА</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">ГОСТИНИЦЫ</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Логотип -->
+            <div class="index-logo">
+                <a href="index.html"> <img src="img/index-logo.png" width="368" height="204" alt="Какая-то Седона"> </a>
+            </div>
+        </header>
+        <main>
+            <!-- Раздел 1  -->
+            <section class="choice">
+                <form class="choice-form">
+                    <!-- Блок 1 -->
+                    <div class="choice-item">
+                        <h2>Инфраструктура</h2>
+                        <!-- Текст -->
+                        <label>
+                            <input type="checkbox" value="Бассейн"> Бассейн </label>
+                        <label>
+                            <input type="checkbox" value="Парковка"> Парковка </label>
+                        <label>
+                            <input type="checkbox" value="Wi-Fi"> Wi-Fi </label>
+                    </div>
+                    <!-- Блок 2 -->
+                    <div class="choice-item">
+                        <h2>Тип жилья</h2>
+                        <!-- Текст -->
+                        <label>
+                            <input type="checkbox" value="Гостиница"> Гостиница </label>
+                        <label>
+                            <input type="checkbox" value="Мотель"> Мотель </label>
+                        <label>
+                            <input type="checkbox" value="Апартаменты"> Апартаменты </label>
+                    </div>
+                    <!-- Блок 3 -->
+                    <div class="choice-item">
+                        <h2>Стоимость в сутки (р):</h2>
+                        <!-- Блок 3.1 -->
+                        <div class="choice-item">
+                            <p>от 0</p>
+                        </div>
+                        <!-- Блок 3.2 -->
+                        <div class="choice-item">
+                            <p>до 3000</p>
+                        </div>
+                        <button class="choice" type="submit">ПОКАЗАТЬ</button>
+                    </div>
+                </form>
+            </section>
+            <!-- Раздел 2  -->
+            <section class="sort">
+                <!-- Блок 1 -->
+                <div class="result">
+                    <h3>НАЙДЕНО:3</h3>
+                </div>
+                <!-- Блок 2 -->
+                <div class="sort-type">
+                    <span>Сортировка:</span>
+                    <ul>
+                        <li>
+                            <a href="#">ПО ЦЕНЕ</a>
+                        </li>
+                        <li>
+                            <a href="#">ПО ТИПУ</a>
+                        </li>
+                        <li>
+                            <a href="#">ПО РЕЙТИНГУ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sort-direction">
+                    <p> :-) </p>
+                </div>
+            </section>
+            <!-- Раздел 3  -->
+            <section class="catalog">
+                <article>
+                    <div class="catalog-image">
+                        <img src="img/photo-4.jpg" width="286" height="164" alt="Какая-то картинка">
+                    </div>
+                    <div class="catalog-description">
+                        <h1> <a href="#"> AMARA RESORT &#38; SPA </a></h1>
+                        <div class="hotels-found-more"> <span>ГОСТИНИЦА</span>
+                            <a class="btn-more" href="#"> ПОДРОБНЕЕ </a>
+                        </div>
+                        <div class="hotels-found-book"> <span>от 3500 Р.</span>
+                            <a class="btn btn-book" href="#">ЗАБРОНИРОВАТЬ </a>
+                        </div>
+                    </div>
+                    <div class="catalog-rating">
+                        <span>РЕЙТИНГ</span>
+                    </div>
+                </article>
+                <article>
+                    <img src="img/photo-5.jpg" width="286" height="164" alt="Какая-то картинка">
+                    <h1> <a href="#"> DESERT QUAIL INN </a></h1>
+                    <div class="hotels-found-more"> <span>МОТЕЛЬ</span>
+                        <a class="btn-more" href="#">ПОДРОБНЕЕ </a>
+                    </div>
+                    <div class="hotels-found-book"> <span>от 2000 Р.</span>
+                        <a class="btn btn-book" href="#"> ЗАБРОНИРОВАТЬ </a>
+                    </div>
+                </article>
+                <article>
+                    <img src="img/photo-6.jpg" width="286" height="164" alt="Какая-то картинка">
+                    <h1> <a href="#"> VILLAS AT POCO DIABLO </a> </h1>
+                    <div class="hotels-found-more"> <span>АПАРТАМЕНТЫ</span>
+                        <a class="btn-more" href="#"> ПОДРОБНЕЕ </a>
+                    </div>
+                    <div class="hotels-found-book"> <span>от 4000 Р.</span>
+                        <a class="btn btn-book" href="#"> ЗАБРОНИРОВАТЬ </a>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <!-- Нижний колонтитул -->
+        <footer class="main-footer">
+            <div class="main-footer">
+                <!-- Раздел -->
+                <div class="footer-contacts">
+                    <a href="#"> #VISITSEDONA </a>
+                </div>
+                <div class="footer-social">
+                    <a href="#">Вконтакте</a>
+                    <a href="#">Фейсбук</a>
+                    <a href="#">Инстаграм</a>
+                </div>
+                <div class="footer-image">
+                    <a href="#"> <img src="img/photo-3.jpg" width="286" height="164" alt="Какая-то картинка"> </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
