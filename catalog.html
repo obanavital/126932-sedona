@@ -11,7 +11,6 @@
     <div class="container">
         <!-- Верхний колонтитул -->
         <header class="main-header">
-            <div class="main-item">
                 <!-- Меню навигации -->
                 <nav class="main-navigation">
                     <ul>
@@ -30,7 +29,6 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
             <!-- Логотип -->
             <div class="index-logo">
                 <a href="index.html"> <img src="img/index-logo.png" width="368" height="204" alt="Какая-то Седона"> </a>
@@ -44,9 +42,9 @@
                     <div class="choice-item">
                         <h2>Инфраструктура</h2>
                         <!-- Текст -->
-                        <p>Бассейн</p>
-                        <p>Парковка</p>
-                        <p>WI-FI</p>
+                        <label><input type="checkbox" value="Бассейн"> Бассейн </label>
+                        <label><input type="checkbox" value="Парковка"> Парковка </label>
+                        <label><input type="checkbox" value="Wi-Fi"> Wi-Fi </label>
                     </div>
                     <!-- Блок 2 -->
                     <div class="choice-item">
@@ -105,10 +103,12 @@
                     <div class="catalog-description">
                         <h1>AMARA RESORT &#38; SPA</h1>
                         <span>ГОСТИНИЦА ОТ 3500 Р.</span>
-                        <div>
-                            <button> <a href="#">ПОДРОБНЕЕ</a> </button>
-                            <button> <a href="#">ЗАБРОНИРОВАТЬ</a> </button>
-                        </div>
+                    <div class="hotels-found-more"> <span>Мотель</span>
+                          <a class="btn-more" href="#">Подробнее</a>
+                    </div>
+                    <div class="hotels-found-book"> <span>от 2000 Р.</span>
+                          <a class="btn btn-book" href="#">Забронировать</a>
+                    </div>
                     </div>
                     <div class="catalog-rating">
                         <span>РЕЙТИНГ</span>
