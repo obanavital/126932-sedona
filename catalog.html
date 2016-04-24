@@ -11,24 +11,24 @@
     <div class="container">
         <!-- Верхний колонтитул -->
         <header class="main-header">
-                <!-- Меню навигации -->
-                <nav class="main-navigation">
-                    <ul>
-                        <li>
-                            <!-- Ссылка на страницу -->
-                            <a href="#">ИНФОРМАЦИЯ</a>
-                        </li>
-                        <li>
-                            <a href="#">ФОТО И ВИДЕО</a>
-                        </li>
-                        <li>
-                            <a href="#">КАРТА ШТАТА</a>
-                        </li>
-                        <li>
-                            <a href="catalog.html">ГОСТИНИЦЫ</a>
-                        </li>
-                    </ul>
-                </nav>
+            <!-- Меню навигации -->
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <!-- Ссылка на страницу -->
+                        <a href="#">ИНФОРМАЦИЯ</a>
+                    </li>
+                    <li>
+                        <a href="#">ФОТО И ВИДЕО</a>
+                    </li>
+                    <li>
+                        <a href="#">КАРТА ШТАТА</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">ГОСТИНИЦЫ</a>
+                    </li>
+                </ul>
+            </nav>
             <!-- Логотип -->
             <div class="index-logo">
                 <a href="index.html"> <img src="img/index-logo.png" width="368" height="204" alt="Какая-то Седона"> </a>
@@ -42,17 +42,23 @@
                     <div class="choice-item">
                         <h2>Инфраструктура</h2>
                         <!-- Текст -->
-                        <label><input type="checkbox" value="Бассейн"> Бассейн </label>
-                        <label><input type="checkbox" value="Парковка"> Парковка </label>
-                        <label><input type="checkbox" value="Wi-Fi"> Wi-Fi </label>
+                        <label>
+                            <input type="checkbox" value="Бассейн"> Бассейн </label>
+                        <label>
+                            <input type="checkbox" value="Парковка"> Парковка </label>
+                        <label>
+                            <input type="checkbox" value="Wi-Fi"> Wi-Fi </label>
                     </div>
                     <!-- Блок 2 -->
                     <div class="choice-item">
                         <h2>Тип жилья</h2>
                         <!-- Текст -->
-                        <p>Гостиница</p>
-                        <p>Мотель</p>
-                        <p>Апартаменты</p>
+                        <label>
+                            <input type="checkbox" value="Гостиница"> Гостиница </label>
+                        <label>
+                            <input type="checkbox" value="Мотель"> Мотель </label>
+                        <label>
+                            <input type="checkbox" value="Апартаменты"> Апартаменты </label>
                     </div>
                     <!-- Блок 3 -->
                     <div class="choice-item">
@@ -101,14 +107,17 @@
                         <img src="img/photo-4.jpg" width="286" height="164" alt="Какая-то картинка">
                     </div>
                     <div class="catalog-description">
-                        <h1>AMARA RESORT &#38; SPA</h1>
-                        <span>ГОСТИНИЦА ОТ 3500 Р.</span>
-                    <div class="hotels-found-more"> <span>Мотель</span>
-                          <a class="btn-more" href="#">Подробнее</a>
-                    </div>
-                    <div class="hotels-found-book"> <span>от 2000 Р.</span>
-                          <a class="btn btn-book" href="#">Забронировать</a>
-                    </div>
+                        <h2>AMARA RESORT &#38; SPA</h2>
+                        <div class="hotels-found-more"> <span>ГОСТИНИЦА</span>
+                            <a class="btn-more" href="#">
+                                <button>ПОДРОБНЕЕ</button>
+                            </a>
+                        </div>
+                        <div class="hotels-found-book"> <span>от 3500 Р.</span>
+                            <a class="btn btn-book" href="#">
+                                <button>ЗАБРОНИРОВАТЬ</button>
+                            </a>
+                        </div>
                     </div>
                     <div class="catalog-rating">
                         <span>РЕЙТИНГ</span>
@@ -128,7 +137,7 @@
                 </article>
                 <article>
                     <img src="img/photo-6.jpg" width="286" height="164" alt="Какая-то картинка">
-                    <b>VILLAS AT POCO DIABLO </b>
+                    <h2>VILLAS AT POCO DIABLO </h2>
                     <p>АПАРТАМЕНТЫ ОТ 4000 Р.</p>
                     <button>ПОДРОБНЕЕ</button>
                     <button>ЗАБРОНИРОВАТЬ</button>
