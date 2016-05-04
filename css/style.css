@@ -6,3 +6,29 @@ body {
     font-family: "Arial", sans-serif;
     line-height: 10px;
 }
+.outline {
+  border: 1px solid red;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 70px;
+}
+.main-header {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0 10px;
+  min-height: 70px;
+}
+.main-navigation {
+width: 1160px;
+margin: 0 auto;
+padding: 0 10px;
+min-height: 70px;
+}
+.outline li {
+display: inline-block;
+width: 200px;
+vertical-align: top;
+}
