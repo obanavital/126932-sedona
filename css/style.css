@@ -1,34 +1,126 @@
-css/
-| - normalize.css
-| - style.css
-body {
+css/ | - normalize.css | - style.css body {
     font-size: 1em;
     font-family: "Arial", sans-serif;
     line-height: 10px;
 }
-.outline {
-  border: 1px solid red;
-}
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  min-height: 70px;
+    width: 1200px;
+    min-height: 70px;
+    outline: 1px solid orange;
 }
 .main-header {
-  width: 1180px;
-  margin: 0 auto;
-  padding: 0 10px;
-  min-height: 70px;
+    width: 1180px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 0 10px;
+    min-height: 70px;
+    outline: 1px solid blue;
 }
-.main-navigation {
-width: 1160px;
-margin: 0 auto;
-padding: 0 10px;
-min-height: 70px;
+.main-navigation li {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
 }
-.outline li {
-display: inline-block;
-width: 200px;
-vertical-align: top;
+.intro {
+    width: 1200px;
+    height: 216px;
+    outline: 1px solid red;
+    vertical-align: top;
+    text-align: center;
+}
+.featuresone {
+    width: 1200px;
+    min-height: 70px;
+    outline: 1px solid red;
+}
+.featuresone div {
+    display: inline-block;
+    vertical-align: top;
+    outline: 1px solid blue;
+}
+.featuresone-item {
+    width: 398px;
+    height: 257px;
+    text-align: center;
+    background: #81b3d2;
+}
+.featuresone-image {
+    width: 797px;
+}
+.proposal {
+    width: 1200px;
+    min-height: 70px;
+    outline: 1px solid red;
+}
+.proposal div {
+    width: 397px;
+    height: 333px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    outline: 1px solid blue;
+}
+.featurestwo {
+    width: 1200px;
+    min-height: 70px;
+    outline: 1px solid red;
+}
+.featurestwo div {
+    display: inline-block;
+    vertical-align: top;
+    outline: 1px solid blue;
+}
+.featurestwo-item {
+    width: 398px;
+    height: 257px;
+    text-align: center;
+    background: #81b3d2;
+}
+.featurestwo-image {
+    width: 797px;
+}
+.features {
+    width: 1200px;
+    min-height: 70px;
+    outline: 1px solid red;
+    background: #eeeeee;
+}
+.features div {
+    width: 397px;
+    height: 333px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    outline: 1px solid blue;
+}
+.search {
+    width: 1200px;
+    height: 290px;
+    text-align: center;
+    outline: 1px solid red;
+}
+.search a {
+    width: 568px;
+    height: 88px;
+    outline: 1px solid blue;
+    background: #766357;
+}
+.map {
+    width: 1200px;
+    height: 474px;
+    text-align: center;
+    outline: 1px solid red;
+}
+.footer-contacts,
+.footer-social,
+.footer-image {
+    width: 397px;
+    min-height: 70px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    outline: 1px solid blue;
 }
