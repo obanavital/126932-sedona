@@ -1,4 +1,5 @@
-css/ | - normalize.css | - style.css body {
+css/ | - normalize.css | - style.css
+body {
     font-size: 1em;
     font-family: "Arial", sans-serif;
     line-height: 10px;
@@ -11,10 +12,8 @@ css/ | - normalize.css | - style.css body {
     outline: 1px solid orange;
 }
 .main-header {
-    width: 1180px;
-    margin: 0 auto;
-    padding: 0 10px;
-    min-height: 70px;
+    width: 1200px;
+    padding: 10px 0px;
     outline: 1px solid blue;
 }
 .main-navigation li {
@@ -29,7 +28,6 @@ css/ | - normalize.css | - style.css body {
     width: 1200px;
     padding: 50px 0px;
     outline: 1px solid red;
-    vertical-align: top;
     text-align: center;
 }
 .featuresone {
@@ -134,4 +132,94 @@ css/ | - normalize.css | - style.css body {
     vertical-align: top;
     text-align: center;
     outline: 1px solid blue;
+}
+.choice {
+  width: 1200px;
+  min-height: 70px;
+  outline: 1px solid red;
+}
+.choice-form-a {
+  width: 1200px;
+  min-height: 70px;
+  outline: 1px solid blue;
+}
+.choice-item-one, .choice-item-two, .choice-item-three {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  outline: 1px solid blue;
+}
+.choice-item-one, .choice-item-two {
+  width: 300px;
+  padding: 100px 0px;
+}
+.choice-item-three {
+  width: 600px;
+  padding: 62px 0px;
+}
+.sort {
+  width: 1200px;
+  min-height: 70px;
+  outline: 1px solid red;
+}
+.result, .sort-type, .sort-direction {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  outline: 1px solid blue;
+}
+.result {
+  width: 200px;
+  padding: 45px 0px;
+}
+.sort-type {
+  width: 800px;
+  padding: 22px 0px;
+}
+.sort-direction {
+  width: 200px;
+  padding: 50px 0px;
+}
+.sort-type li {
+  padding: 18px 0px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  outline: 1px solid blue;
+}
+.catalog {
+  width: 1200px;
+  min-height: 70px;
+  outline: 1px solid red;
+}
+article {
+  width: 1200px;
+  min-height: 70px;
+  outline: 1px solid green;
+}
+.catalog-image,
+.catalog-description,
+.catalog-rating {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  outline: 1px solid blue;
+}
+.catalog-image, .catalog-rating {
+  width: 200px;
+}
+.catalog-description {
+  width: 800px;
+  padding: 7px 0px;
+}
+.catalog-rating {
+padding: 35px 0px;
+}
+.hotels-found-more, .hotels-found-book {
+  width: 200px;
+  padding: 10px 0px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  outline: 1px solid blue;
 }
