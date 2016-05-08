@@ -194,7 +194,8 @@ body {
 }
 article {
   width: 1200px;
-  min-height: 70px;
+  padding: 7px 72px;
+  text-align: center;
   outline: 1px solid green;
 }
 .catalog-image,
