@@ -160,6 +160,7 @@ body {
 .sort {
   width: 1200px;
   min-height: 70px;
+  padding: 10px 72px;
   outline: 1px solid red;
 }
 .result, .sort-type, .sort-direction {
@@ -169,15 +170,15 @@ body {
   outline: 1px solid blue;
 }
 .result {
-  width: 200px;
+  width: 165px;
   padding: 45px 0px;
 }
 .sort-type {
-  width: 800px;
+  width: 726px;
   padding: 22px 0px;
 }
 .sort-direction {
-  width: 200px;
+  width: 165px;
   padding: 50px 0px;
 }
 .sort-type li {
