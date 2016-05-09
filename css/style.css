@@ -188,39 +188,40 @@ body {
   outline: 1px solid blue;
 }
 .catalog {
-  width: 1200px;
-  min-height: 70px;
+  padding: 0px 72px;
   outline: 1px solid red;
 }
 article {
-  width: 1200px;
-  padding: 7px 72px;
-  text-align: center;
+  padding: 30px 0px;
   outline: 1px solid green;
 }
 .catalog-image,
 .catalog-description,
 .catalog-rating {
   display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+  vertical-align: top;
   outline: 1px solid blue;
 }
-.catalog-image, .catalog-rating {
-  width: 200px;
+.catalog-image {
+width: 165px;
+padding: 10px 0px;
+text-align: center;
 }
 .catalog-description {
-  width: 800px;
-  padding: 7px 0px;
+width: 726px;
+padding: auto;
+text-align: left;
 }
 .catalog-rating {
-padding: 35px 0px;
+width: 165px;
+padding: 50px 0px;
+text-align: center;
 }
-.hotels-found-more, .hotels-found-book {
-  width: 200px;
-  padding: 10px 0px;
+.hotels-found-more,
+.hotels-found-book {
+  padding: 10px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   text-align: center;
   outline: 1px solid blue;
 }
