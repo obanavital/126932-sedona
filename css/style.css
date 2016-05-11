@@ -25,6 +25,11 @@ body {
 li:nth-child(2) {
     margin-right: 240px;
 }
+ul {
+  padding: 0px; 0px;
+  margin: 0px; 0px;
+  text-align: center;
+}
 .intro {
     width: 1200px;
     padding: 50px 0px;
@@ -171,15 +176,15 @@ li:nth-child(2) {
 }
 .result {
   width: 165px;
-  padding: 45px 0px;
+  padding: 20px 0px;
 }
 .sort-type {
   width: 726px;
-  padding: 22px 0px;
+  padding: 13px 0px;
 }
 .sort-direction {
   width: 165px;
-  padding: 50px 0px;
+  padding: 25px 0px;
 }
 .sort-type li {
   padding: 18px 0px;
@@ -220,7 +225,7 @@ text-align: center;
 }
 .hotels-found-more,
 .hotels-found-book {
-  padding: 10px;
+  padding: 5px 50px;
   display: inline-block;
   vertical-align: top;
   text-align: center;
